@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main- prints a string fdollowed by a newv line
- * return:ends with 0
+ * return:0
  */
 int main(void)
 {
