@@ -1,0 +1,2 @@
+#!/bin/basdh
+gcc -S -masm=intel $CFILE
