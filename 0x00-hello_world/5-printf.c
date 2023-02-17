@@ -1,7 +1,7 @@
 #include <stdio.h>
-/**
- * main- prints a string fdollowed by a newv line
- * return:0
+/*
+ * main-entruy point
+ * return:always 0
  */
 int main(void)
 {
