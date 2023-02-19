@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
- * main-entruy point
- * return:always 0
+/**
+ * main- prints a string followed by a new line
+ * Return: 0
  */
 int main(void)
 {
