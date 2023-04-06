@@ -4,19 +4,19 @@
 
 /**
   * list_len - Show the number of elements of a list
-  * @h: A linked list
+  * @l: A linked list
   *
   * Return: The number of elements of a list
   */
-size_t list_len(const list_t *h)
+size_t list_len(const list_t *l)
 {
-	size_t count = 0;
+	size_t countt = 0;
 
-	while (h)
+	while (l)
 	{
-		h = h->next;
-		count++;
+		l = l->next;
+		countt++;
 	}
 
-	return (count);
+	return (countt);
 }
