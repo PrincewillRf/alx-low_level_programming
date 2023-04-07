@@ -9,7 +9,7 @@
   */
 size_t print_listint(const listint_t *h)
 {
-	int count = 0;
+	int countt = 0;
 
 	if (h != NULL)
 	{
@@ -17,9 +17,9 @@ size_t print_listint(const listint_t *h)
 		{
 			printf("%d\n", h->n);
 			h = h->next;
-			count++;
+			countt++;
 		}
 	}
 
-	return (count);
+	return (countt);
 }
