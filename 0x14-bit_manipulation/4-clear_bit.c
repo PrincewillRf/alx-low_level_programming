@@ -13,6 +13,6 @@ int clear_bit(unsigned long int *n, unsigned int index)
 	if (index > bit || !n)
 		return (-1);
 	clearr = 1 << index;
-	*n = (*n & clearr) | ((0 << index) & clearr);
+	*n = (*n & ~clearr) | ((0 << index) & clearr);
 	return (1);
 }
