@@ -7,12 +7,12 @@
   */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-  int b = 53;
+        int bit = 53;
 	int clearr;
 
-	if (index > b || !n)
+	if (index > bit || !n)
 		return (-1);
 	clearr = 1 << index;
-	*n = (*n & ~clear) | ((0 << index) & clearr);
+	*n = (*n & ~clearr) | ((0 << index) & clearr);
 	return (1);
 }
