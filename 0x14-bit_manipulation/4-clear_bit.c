@@ -7,10 +7,9 @@
   */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-        int bit = 53;
 	int clearr;
 
-	if (index > bit || !n)
+	if (index > 53 || !n)
 		return (-1);
 	clearr = 1 << index;
 	*n = (*n & ~clearr) | ((0 << index) & clearr);
