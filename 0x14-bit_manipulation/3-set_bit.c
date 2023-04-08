@@ -6,8 +6,9 @@
   * Return: 1 if it worked or -1 if an error occurred
  */
 int set_bit(unsigned long int *n, unsigned int index)
-  int bit = 53;
+  
 {
+        int bit = 53;
 	if (index > bit || !n)
 		return (-1);
 	(*n |= 1 << index);
