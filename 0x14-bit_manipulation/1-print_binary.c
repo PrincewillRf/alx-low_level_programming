@@ -7,16 +7,16 @@
 
 
 
-/**void print_binary(unsigned long int n)
+void print_binary(unsigned long int n)
 {
 	if (n > 1)
 		print_binary(n >> 1);
 	(n & 1) ? _putchar('1') : _putchar('0');
 }
-*/
 
 
-void print_binary(unsigned long int n) {
+
+/**void print_binary(unsigned long int n) {
   // Determine the number of bits in an unsigned long int
   const unsigned int num_bits = sizeof(unsigned long int) * CHAR_BIT;
 
@@ -37,4 +37,5 @@ void print_binary(unsigned long int n) {
     mask >>= 1;
   }
 }
+*/
 
